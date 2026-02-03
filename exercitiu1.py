@@ -3,10 +3,10 @@
 
 # 2. Creaza o functie "extract_students" care extrage toti studentii "bachelor" si "masters", intr-un dictionar si il returneaza. Dictionarul arata in urmatorul fel:
 
-# {
-#     "bachelor": [{"name": "Mason Dubois", "age": 21, "test_score": 71, "role": "bachelor"}, {"name": "Ethan Singh", "age": 20, "test_score": 79, "role": "bachelor"}, ....],
-#     "masters": [{"name": "Isabella Nowak", "age": 25, "test_score": 89, "role": "masters"}, {"name": "Isabella Nowak", "age": 25, "test_score": 89, "role": "masters"}]
-# }
+example_dict = {
+    "bachelor": [{"name": "Mason Dubois", "age": 21, "test_score": 71, "role": "bachelor"}, {"name": "Ethan Singh", "age": 20, "test_score": 79, "role": "bachelor"}],
+    "masters": [{"name": "Isabella Nowak", "age": 25, "test_score": 89, "role": "masters"}, {"name": "Isabella Nowak", "age": 25, "test_score": 89, "role": "masters"}]
+}
 
 # 3. Creaza o functie "student_balance" care returneaza "bachelor" daca sunt mai multi bachelor decat masters, si "masters" daca sunt mai multi masters decat bachelor.
 
@@ -22,3 +22,6 @@ students = [
     {"name": "Olivia Rossi", "age": 22, "test_score": 94, "role": "masters"},
     {"name": "Ethan Singh", "age": 20, "test_score": 79, "role": "bachelor"},
 ]
+
+
+print("======================================================================================================================================================")
